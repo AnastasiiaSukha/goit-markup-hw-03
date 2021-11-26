@@ -9,11 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+                    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+                    crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <div class="container header-container">
+        <nav class="header-navigation">
             <a class="link header-logo" href="index.html">Web<span class="logo-part">Studio</span></a>
     
 <ul class="list header-list">
@@ -22,7 +26,7 @@
     <li class="header-item"><a class="link header-link" href="">Контакты</a> </li>
 </ul>
 </nav>
-<ul class="list">
+<ul class="list header-contacts">
     <li>
         <a class="link header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
     </li>
@@ -30,10 +34,12 @@
         <a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a>
     </li>
 </ul>
+</div>
 </header>
 
 <main>
-    <section class="portfolio-buttons">
+    <section class="portfolio-buttons section">
+        <div class="container main-container">
         <h1 class="visually-hidden"> Портфолио Веб-студии </h1>
             <ul class="list btn-portfolio-list">
           <li class="btn-list-item">
@@ -52,7 +58,7 @@
             <button class="portfolio-btn" type="button"> Маркетинг </button> 
         </li>
        </ul>
-    
+    <div class="main-container">
      <ul class=" list portfolio-list">
          <li class="portfolio-item">
             <img src="./images/tehno.jpg"
@@ -128,10 +134,13 @@
         </li>
         
      </ul>
+    </div>
+    </div>
     </section>
     </main>
     
     <footer class="footer">
+        <div class="container">
         <a class="link footer-logo" href="/index.html">Web<span class="footer-logo-part">Studio</span></a>
         <address class="footer-address">
             <ul class="list footer-list">
@@ -145,7 +154,7 @@
         </address>
        
             
-       
+    </div>
     </footer>
 </body>
 </html>
